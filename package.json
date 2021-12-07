@@ -1,0 +1,29 @@
+{
+  "name": "ensklapediya",
+  "version": "1.0.0",
+  "description": "hayvonot olami insklapediyasi",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "win": {
+    "target": "squirrel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulxaq/electronJs-ensklopidia.git"
+  },
+  "author": "abdulkhak tursunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulxaq/electronJs-ensklopidia/issues"
+  },
+  "homepage": "https://github.com/Abdulxaq/electronJs-ensklopidia#readme",
+  "devDependencies": {
+    "electron": "16.0.4",
+    "electron-builder": "22.10.5",
+    "electron-packager": "^15.4.0",
+    "electron-simple-publisher": "^2.0.1"
+  }
+}

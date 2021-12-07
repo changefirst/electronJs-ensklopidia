@@ -1,0 +1,25 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>"Hayvonot olami" bolalar ensklapediyasi </title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body id="body" >
+    <div id="intro" >
+        <p>
+            <i>Hayvonot olami juda ham xilma-xildir. Hozirgi paytda yer yuzida 1500 mingdan ortiq hayvon turlari ma`lum. Shulardan ba`zi yirtqich hayvonlarni ensiklopediyamizga kiritdik. Sizga manzur bo`ladi degan umiddamaz.</i> <br><br>
+            <b>Mirzajonova Mohinur</b>  tomonidan tayyorlandi.
+        </p>
+    </div>
+    <iframe id="a" src="./a.pdf"></iframe>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
